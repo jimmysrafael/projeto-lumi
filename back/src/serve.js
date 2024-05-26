@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 app.use(todosRoutes);
 
-app.get("/health", (req, res) => {
+app.get("/", (req, res) => {
   return res.json("up");
 });
 
