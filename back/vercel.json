@@ -9,9 +9,5 @@
   "routes": [
     {
       "src": "(.*)",
-      "dest": "src/server.ts",
-      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-      "headers": {
-        "Access-Control-Allow-Origin": "https://projeto-lumi-ntdkue20y-devjjs-projects-dd81c9bd.vercel.app"
-    }
+      "dest": "src/server.ts"
 }
