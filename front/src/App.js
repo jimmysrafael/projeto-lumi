@@ -155,7 +155,7 @@ function App() {
 
   useEffect(() => {
     async function getValores() {
-      const response = await axios.get("https://projeto-lumi-back-ajrx8b3q2-devjjs-projects-dd81c9bd.vercel.app/lumi");
+      const response = await axios.get("https://projeto-lumi-back-ajrx8b3q2-devjjs-projects-dd81c9bd.vercel.app:4000/lumi");
       const valores = response.data;
 
       // Criar um conjunto (Set) para armazenar valores únicos de numerocliente
