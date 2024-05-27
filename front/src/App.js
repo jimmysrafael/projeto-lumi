@@ -155,7 +155,7 @@ function App() {
 
   useEffect(() => {
     async function getValores() {
-      const response = await axios.get("localhost:3333/lumi");
+      const response = await axios.get("http://localhost:3333/lumi");
       const valores = response.data;
 
       // Criar um conjunto (Set) para armazenar valores únicos de numerocliente
